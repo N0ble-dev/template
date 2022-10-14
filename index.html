@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>delta</title>
+  </head>
+  <body>
+    <div class="cover">
+      <div class="card">
+        <img class="logo" src="logo_original.png" alt="" />
+        <form>
+          <div class="one">
+            <label for="chr"> <i class="fa-solid fa-user"></i></label>
+            <input type="text" id="chr" required placeholder="User Name" />
+          </div>
+          <div class="two">
+            <label for="ch"><i class="fa-solid fa-key"></i></label>
+            <input type="password" id="ch" required placeholder="Passowrd" />
+          </div>
+          <div class="parent">
+            <div class="check-ones">
+              <input
+                type="radio"
+                id="studen"
+                name="che"
+                checked
+                value="student"
+              />
+              <label for="studen">Student</label>
+            </div>
+            <div class="check-twos">
+              <input
+                type="radio"
+                id="teach"
+                name="che"
+                value="Teaching staff"
+              />
+              <label for="teach">Teaching staff</label>
+            </div>
+          </div>
+        </form>
+        <button>
+          <form action="">
+            <input type="submit" value="SIGNIN " />
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          </form>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
